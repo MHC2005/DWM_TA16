@@ -1,0 +1,49 @@
+
+@media (width > 425px) {
+    .imagen {
+        width: 70vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto    }
+    body{
+        background-color: red;
+    }
+    p{
+        font-size: 24px;
+    }
+    .imagen{
+        width: 100vw;
+    }
+}
+
+
+@media (width > 768px) {
+    .imagen {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto    }
+    body{
+        background-color: green;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+@media (width > 1024px) {
+    .imagen {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    body{
+        background-color: blue;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+
